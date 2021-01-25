@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Quick Start - Leaflet</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" />
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+
+	
+</head>
+<body>
+
+<div class="container">
+
+	<h1 id="title" class="title">
+		Analysis of the Impact that Mode of Instruction in Education has on Covid-19 Cases
+	  </h1>
+	  <h1 class="subtitle">Kent State University - Fall 2020<br>Graph and Social Network Analysis - Professor Niranjan Rai<br>Project Presented by: Vere Miller, Cameron Coventry and Bash Khanal</h1>
+
+	  
+	<div id="mapid" style="width: 1300px; height: 900px;"></div>
+	<div id="button" class="has-text-centered">
+
+		<button class="button is-info is-rounded" onclick="removeLines()">Toggle connections</button>
+
+
+	</div>
+
+</div>
+
+<script src="./map.js"></script>
+<style>
+	#button{
+		margin-top: 30px;;
+	}
+	#title{
+		font-family: "Helvetica", Times, serif !important;
+		color:hsl(204, 86%, 53%);
+		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	}
+</style>
+
+
+
+</body>
+</html>
